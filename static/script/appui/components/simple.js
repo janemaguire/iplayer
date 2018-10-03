@@ -67,11 +67,18 @@ define(
           self.getCurrentApplication().pushComponent("maincontainer", "sampleapp/appui/components/horizontalprogresscomponent");
         });
 
+        var menuButton = new Button();
+        menuButton.appendChildWidget(new Label("Menu Example"));
+        menuButton.addEventListener("select", function(evt){
+          self.getCurrentApplication().pushComponent("maincontainer", "sampleapp/appui/components/menucomponent");
+        });
+
         // Create a vertical list and append the buttons to navigate within the list
         verticalListMenu = new VerticalList("mainMenuList");
         verticalListMenu.appendChildWidget(newCarouselButton);
         verticalListMenu.appendChildWidget(playerButton);
         verticalListMenu.appendChildWidget(horizontalProgressButton);
+        verticalListMenu.appendChildWidget(menuButton);
         this.appendChildWidget(verticalListMenu);
 
         // calls Application.ready() the first time the component is shown
