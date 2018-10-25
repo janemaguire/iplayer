@@ -29,17 +29,18 @@ define(
     "antie/widgets/button",
     "antie/widgets/label",
     "antie/widgets/verticallist",
+    "antie/widgets/horizontallist",
     "antie/widgets/carousel",
     "antie/datasource",
     "sampleapp/appui/formatters/simpleformatter",
     "sampleapp/appui/datasources/simplefeed"
   ],
-  function (Component, Button, Label, VerticalList, Carousel, DataSource, SimpleFormatter, SimpleFeed) {
+  function (Component, Button, Label, VerticalList, HorizontalList, Carousel, DataSource, SimpleFormatter, SimpleFeed) {
 
     // All components extend Component
     return Component.extend({
       init: function init () {
-        var self, helloWorldLabel, welcomeLabel, carouselButtonLabel, verticalListMenu;
+        var self, helloWorldLabel, welcomeLabel, carouselButtonLabel, horizontalListMenu;
 
         self = this;
 
@@ -74,12 +75,12 @@ define(
         });
 
         // Create a vertical list and append the buttons to navigate within the list
-        verticalListMenu = new VerticalList("mainMenuList");
-        verticalListMenu.appendChildWidget(newCarouselButton);
-        verticalListMenu.appendChildWidget(playerButton);
-        verticalListMenu.appendChildWidget(horizontalProgressButton);
-        verticalListMenu.appendChildWidget(menuButton);
-        this.appendChildWidget(verticalListMenu);
+        horizontalListMenu = new HorizontalList("mainMenuList");
+        horizontalListMenu.appendChildWidget(newCarouselButton);
+        horizontalListMenu.appendChildWidget(playerButton);
+        horizontalListMenu.appendChildWidget(horizontalProgressButton);
+        horizontalListMenu.appendChildWidget(menuButton);
+        this.appendChildWidget(horizontalListMenu);
 
         // calls Application.ready() the first time the component is shown
         // the callback removes itself once it's fired to avoid multiple calls.
