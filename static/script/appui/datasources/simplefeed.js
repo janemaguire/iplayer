@@ -35,33 +35,43 @@ define(
           [
             {
               "id":"1",
-              "title":"Apple",
-              "img" : "static/img/fruit/apple.png"
+              "title":"Blackadder",
+              "img" : "static/img/shows/blackadder.jpg"
             },
             {
               "id":"2",
-              "title":"Banana",
-              "img" : "static/img/fruit/banana.png"
+              "title":"Blue Planet II",
+              "img" : "static/img/shows/blue-planet.jpg"
             },
             {
               "id":"3",
-              "title":"Grapes",
-              "img" : "static/img/fruit/grapes.png"
+              "title":"Doctor Who",
+              "img" : "static/img/shows/doctor-who.jpg"
             },
             {
               "id":"4",
-              "title":"Orange",
-              "img" : "static/img/fruit/orange.png"
+              "title":"Fleabag",
+              "img" : "static/img/shows/fleabag.jpg"
             },
             {
               "id":"5",
-              "title":"Peach",
-              "img" : "static/img/fruit/peach.png"
+              "title":"Inside No 9",
+              "img" : "static/img/shows/inside-no-9.jpg"
             },
             {
               "id":"6",
-              "title":"Pear",
-              "img" : "static/img/fruit/pear.png"
+              "title":"Luther",
+              "img" : "static/img/shows/luther.jpg"
+            },
+            {
+              "id":"7",
+              "title":"Strictly Come Dancing",
+              "img" : "static/img/shows/strictly.jpg"
+            },
+            {
+              "id":"8",
+              "title":"University Challenge",
+              "img" : "static/img/shows/university-challenge.jpg"
             }
           ]
         );
