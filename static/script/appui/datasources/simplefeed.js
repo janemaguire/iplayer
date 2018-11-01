@@ -34,42 +34,42 @@ define(
         callbacks.onSuccess(
           [
             {
-              "id":"1",
+              "id":"0",
               "title":"Blackadder",
               "img" : "static/img/shows/blackadder.jpg"
             },
             {
-              "id":"2",
+              "id":"1",
               "title":"Blue Planet II",
               "img" : "static/img/shows/blue-planet.jpg"
             },
             {
-              "id":"3",
+              "id":"2",
               "title":"Doctor Who",
               "img" : "static/img/shows/doctor-who.jpg"
             },
             {
-              "id":"4",
+              "id":"3",
               "title":"Fleabag",
               "img" : "static/img/shows/fleabag.jpg"
             },
             {
-              "id":"5",
+              "id":"4",
               "title":"Inside No 9",
               "img" : "static/img/shows/inside-no-9.jpg"
             },
             {
-              "id":"6",
+              "id":"5",
               "title":"Luther",
               "img" : "static/img/shows/luther.jpg"
             },
             {
-              "id":"7",
+              "id":"6",
               "title":"Strictly Come Dancing",
               "img" : "static/img/shows/strictly.jpg"
             },
             {
-              "id":"8",
+              "id":"7",
               "title":"University Challenge",
               "img" : "static/img/shows/university-challenge.jpg"
             }

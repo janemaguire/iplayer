@@ -112,7 +112,7 @@ define(
             normalisedAlignPoint: 0.5,
             normalisedWidgetAlignPoint: 0.5
           },
-          initialItem: 4,
+          initialItem: 0,
           type: "CULLING",
           lengths: 264
         };

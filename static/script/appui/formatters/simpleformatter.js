@@ -35,8 +35,8 @@ define(
       format : function (iterator) {
         var button, item;
         item = iterator.next();
-        button = new Button("fruit" + item.id);
-        button.appendChildWidget(new Image("img-item.id", item.img, { width : 200, height: 200}));
+        button = new Button("show" + item.id);
+        button.appendChildWidget(new Image("img-item.id", item.img, { width : 304, height: 171}));
         button.appendChildWidget(new Label(item.title));
         return button;
       }

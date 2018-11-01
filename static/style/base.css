@@ -263,9 +263,10 @@ initial element background in the base stylesheet, not in dynamically loaded sty
 }
 
 .carouselwidgetstrip > .button {
-    margin: 0;
-    width: 200px;
-    padding: 32px;
+    padding: 0;
+    width: 304px;
+    margin-right: 8px;
+
 }
 
 .carouselwidgetstrip.vertical > .button {
