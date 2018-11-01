@@ -174,12 +174,12 @@ initial element background in the base stylesheet, not in dynamically loaded sty
 }
 
 .buttonFocussed {
-    background-color: #FFD700;
+    background-color: #f54997;
     color: #000000;
 }
 
 .buttonFocussed.menuendpoint {
-    background-color: #FFD700;
+    background-color: #f54997;
 }
 
 .background-none {
@@ -237,7 +237,7 @@ initial element background in the base stylesheet, not in dynamically loaded sty
 }
 
 .carouselwidgetstrip {
-    position: relative;
+    /* position: relative; */
     white-space: nowrap;
 }
 
@@ -254,8 +254,7 @@ initial element background in the base stylesheet, not in dynamically loaded sty
 }
 
 #carouselComponent > .carouselmask {
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 #carouselComponent > .description {
