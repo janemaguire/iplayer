@@ -36,7 +36,7 @@ define(
         var button, item;
         item = iterator.next();
         button = new Button("show" + item.id);
-        button.appendChildWidget(new Image("img-item.id", item.img, { width : 304, height: 171}));
+        button.appendChildWidget(new Image("img-item.id", item.img, { width : 500}));
         button.appendChildWidget(new Label(item.title));
         return button;
       }

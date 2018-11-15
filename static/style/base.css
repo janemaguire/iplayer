@@ -29,12 +29,13 @@ html {
 body {
     overflow: hidden;
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: "Helvetica", sans-serif;
     font-weight: lighter;
     color: #d4d4d4;
-    background-color: #000000;
+    background-color: red;
 }
 
 object {
@@ -263,8 +264,8 @@ initial element background in the base stylesheet, not in dynamically loaded sty
 
 .carouselwidgetstrip > .button {
     padding: 0;
-    width: 304px;
-    margin-right: 8px;
+    /* width: 304px; */
+    margin-right: 10px;
 
 }
 

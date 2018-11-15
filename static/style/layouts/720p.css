@@ -27,11 +27,10 @@
 #app {
     position: relative;
     overflow: hidden;
-    width: 1280px;
-    height: 720px;
-    top: 50%;
+    width: 80%;
+    height: 80%;
+    top: 40%;
     margin: -360px auto 0 auto;
-    background-image: url(../../img/bbc_background_720.png);
 }
 
 #helloWorldLabel, #welcomeLabel {
@@ -67,7 +66,7 @@
 }
 
 #carouselComponent > .carouselmask.horizontal {
-    width: 960px;
+    width: 100%;
 }
 
 #carouselComponent > .carouselmask.vertical {
