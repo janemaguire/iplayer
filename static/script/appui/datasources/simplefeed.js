@@ -36,42 +36,50 @@ define(
             {
               "id":"0",
               "title":"Blackadder",
-              "img" : "static/img/shows/blackadder.jpg"
+              "img" : "static/img/shows/blackadder.jpg",
+              "genre" : "Comedy"
             },
             {
               "id":"1",
               "title":"Blue Planet II",
-              "img" : "static/img/shows/blue-planet.jpg"
+              "img" : "static/img/shows/blue-planet.jpg",
+              "genre" : "Science and Nature"
             },
             {
               "id":"2",
               "title":"Doctor Who",
-              "img" : "static/img/shows/doctor-who.jpg"
+              "img" : "static/img/shows/doctor-who.jpg",
+              "genre" : "Sci-Fi"
             },
             {
               "id":"3",
               "title":"Fleabag",
-              "img" : "static/img/shows/fleabag.jpg"
+              "img" : "static/img/shows/fleabag.jpg",
+              "genre" : "Comedy"
             },
             {
               "id":"4",
               "title":"Inside No 9",
-              "img" : "static/img/shows/inside-no-9.jpg"
+              "img" : "static/img/shows/inside-no-9.jpg",
+              "genre" : "Comedy"
             },
             {
               "id":"5",
               "title":"Luther",
-              "img" : "static/img/shows/luther.jpg"
+              "img" : "static/img/shows/luther.jpg",
+              "genre" : "Drama"
             },
             {
               "id":"6",
               "title":"Strictly Come Dancing",
-              "img" : "static/img/shows/strictly.jpg"
+              "img" : "static/img/shows/strictly.jpg",
+              "genre" : "Entertainment"
             },
             {
               "id":"7",
               "title":"University Challenge",
-              "img" : "static/img/shows/university-challenge.jpg"
+              "img" : "static/img/shows/university-challenge.jpg",
+              "genre" : "Entertainment"
             }
           ]
         );

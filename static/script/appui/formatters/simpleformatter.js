@@ -38,6 +38,7 @@ define(
         button = new Button("show" + item.id);
         button.appendChildWidget(new Image("img-item.id", item.img, { width : 500}));
         button.appendChildWidget(new Label(item.title));
+        button.appendChildWidget(new Label(item.genre));
         return button;
       }
     });
