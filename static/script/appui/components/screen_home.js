@@ -23,7 +23,7 @@
 */
 
 define(
-  "sampleapp/appui/components/simple",
+  "sampleapp/appui/components/screen_home",
   [
     "antie/widgets/component",
     "antie/widgets/button",
@@ -44,7 +44,7 @@ define(
         self = this;
 
         // It is important to call the constructor of the superclass
-        init.base.call(this, "simplecomponent");
+        init.base.call(this, "screen_home");
 
         // Add the labels to the component
         helloWorldLabel = new Label("helloWorldLabel", "Hello World");
