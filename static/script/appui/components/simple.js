@@ -31,10 +31,10 @@ define(
     "antie/widgets/verticallist",
     "antie/widgets/carousel",
     "antie/datasource",
-    "sampleapp/appui/formatters/simpleformatter",
-    "sampleapp/appui/datasources/simplefeed"
+    "sampleapp/appui/formatters/topShowsFormatter",
+    "sampleapp/appui/datasources/topShowsData"
   ],
-  function (Component, Button, Label, VerticalList, Carousel, DataSource, SimpleFormatter, SimpleFeed) {
+  function (Component, Button, Label, VerticalList, Carousel, DataSource, TopShowsFormatter, TopShowsData) {
 
     // All components extend Component
     return Component.extend({
@@ -101,8 +101,9 @@ define(
       _getCarouselConfig: function () {
         return {
           description: "Carousel example, LEFT and RIGHT to navigate, SELECT to go back",
-          dataSource: new DataSource(null, new SimpleFeed(), 'loadData'),
-          formatter: new SimpleFormatter(),
+          // Create a new instance of the datasource class passing in the relevant data
+          dataSource: new DataSource(null, new TopShowsData(), 'loadData'),
+          formatter: new TopShowsFormatter(),
           orientation: Carousel.orientations.HORIZONTAL,
           carouselId: 'verticalCullingCarousel',
           animOptions: {

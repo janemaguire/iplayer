@@ -23,7 +23,7 @@
 */
 
 define(
-  "sampleapp/appui/formatters/simpleformatter",
+  "sampleapp/appui/formatters/topShowsFormatter",
   [
     "antie/formatter",
     "antie/widgets/label",

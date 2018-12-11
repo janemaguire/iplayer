@@ -23,7 +23,7 @@
 */
 
 define(
-  "sampleapp/appui/datasources/simplefeed",
+  "sampleapp/appui/datasources/topShowsData",
   [
     "antie/class"
   ],
