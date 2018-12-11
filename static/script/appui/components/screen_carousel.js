@@ -1,5 +1,5 @@
 define(
-  "sampleapp/appui/components/carouselcomponent",
+  "sampleapp/appui/components/screen_carousel",
   [
     "antie/widgets/component",
     "antie/datasource",
@@ -24,8 +24,7 @@ define(
 
     return Component.extend({
       init: function init () {
-        init.base.call(this, 'carouselComponent');
-
+        init.base.call(this, 'screen_carousel');
         this._addComponentListeners();
         this._description = new Label();
         this._description.addClass('description');

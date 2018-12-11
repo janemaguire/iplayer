@@ -87,7 +87,7 @@ define(
         function carouselExampleSelected() {
           self.getCurrentApplication().pushComponent(
             "maincontainer",
-            "sampleapp/appui/components/carouselcomponent",
+            "sampleapp/appui/components/screen_carousel",
             self._getCarouselConfig()
           );
         }
