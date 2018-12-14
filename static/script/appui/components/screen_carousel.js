@@ -10,10 +10,12 @@ define(
     "antie/widgets/carousel/strips/wrappingstrip",
     "antie/widgets/carousel/navigators/wrappingnavigator",
     "antie/widgets/carousel/strips/cullingstrip",
-    "antie/widgets/carousel/strips/hidingstrip"
+    "antie/widgets/carousel/strips/hidingstrip",
+    "static/script/appui/datasources/uktvData",
+    "static/script/appui/formatters/uktvFormatter"
   ],
   function (Component, DataSource, Label, Carousel, Binder, ActivateFirstHandler, WrappingStrip,
-    WrappingNavigator, CullingStrip, HidingStrip) {
+    WrappingNavigator, CullingStrip, HidingStrip, UKTVData, UKTVFormatter) {
     'use strict';
 
     function evtBind(self, functionName) {
@@ -29,6 +31,12 @@ define(
         this._description = new Label();
         this._description.addClass('description');
         this.appendChildWidget(this._description);
+
+        var uktvData = new UKTVData();
+        var uktvFormatter = new UKTVFormatter();
+
+        this.uktvDataSource = new DataSource(this, uktvData, "loadData");
+        this.uktvCarousel = new Carousel("uktvCarousel", uktvFormatter, this.uktvDataSource);
       },
 
       onBeforeShow: function (evt) {
